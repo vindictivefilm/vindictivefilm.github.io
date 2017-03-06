@@ -24,9 +24,7 @@ body {
 
 }
 
-.thingy{
-    width:100%;
-}
+
 
 .image-bg-fixed-height {
 	background: url("../img/heading_bg.png") no-repeat center center scroll;
@@ -40,7 +38,7 @@ body {
 
 .image-no-bg-fixed-height {
     /*background: url('http://lorempixel.com/g/1920/500/') no-repeat center center scroll;*/
-    height: 450px;
+    height: 600px;
 }
 
 .image-no-bg-fixed-width {
@@ -56,9 +54,17 @@ section {
     padding: 75px 0;
 }
 
+.main-heading{
+    font-family: 'Amiko', sans-serif;
+    font-weight: 600;
+    font-size: 4em;
+}
+
 .section-heading {
     margin: 30px 0;
-    font-size: 4em;
+    font-family: 'Amiko', sans-serif;
+    font-weight: 600;
+    font-size: 3em;
 }
 
 .section-lead {
@@ -66,6 +72,8 @@ section {
 }
 
 .section-paragraph {
+    font-family: 'Amiko', sans-serif;
+    font-weight: 400;
     margin: 30px 0;
 }
 
